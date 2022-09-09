@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <meta charset="utf-8">
+    <head>
+        <title>Prueba de html y css</title>
+        <link rel="stylesheet" href="estilos1.css">
+        <script src="funciones.js"></script>
+    </head>
+    <body>
+        <h1>Archivo de prueba</h1>
+        <p></p>
+        <div class="contenedor">
+            <div class="cont-nombre">
+                <div>Nombre:</div>
+                <div>
+                    <input type="text" class="nombre" onfocusout="cambiaTxt(this)">
+                </div>
+            </div>
+            <div class="cont-tel">
+                <div>Telefono</div>
+                    <div>
+                        <input type="text" id="tel" minlength="7" maxlength="10" required pattern="[0,9]">
+                    </div>
+            </div>
+        </div>
+
+        <div class="cont-img">
+            <img src="img/logoITA.png" width="30%" id="ita">
+        </div>
+        <div>
+
+        </div>
+    </body>
+    </html>

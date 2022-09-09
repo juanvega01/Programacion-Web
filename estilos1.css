@@ -1,0 +1,32 @@
+*{
+    display: block;    
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+.contenedor{
+    background-color: burlywood;
+    border: 1px solid black;
+    display: flex;
+    padding: 10pt;
+    text-align: center;
+    justify-content: center;
+}
+.cont-nombre{
+text-align: center;
+margin: auto;
+}
+.cont-tel{
+    margin: auto;
+}
+.cont-img img{
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+transition: all 0.5s ease;
+}
+.cont-img img:hover{
+    transform: scale(0.9);
+}
