@@ -1,7 +1,9 @@
 body{
 
- background-image: linear-gradient(360deg, green,white, green);
-
+ background-image: url(img/fondo.jpg);
+ width: 100%;
+max-width: 100%;
+color: blanchedalmond;
 }
 
 #Timg{
@@ -54,8 +56,8 @@ align-items: center;
    
 }
 #lSistemas img{
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     margin: auto auto;
     
 }
@@ -113,24 +115,20 @@ transform: scale(0.9);
 }
 .imgITA{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    gap: 16px;
+align-items: center;
     padding: 20px 10px;
 }
 .imgITA img{
-  
   object-fit: cover;
   border-radius: 10px;
 }
 
-
-.carrusel-elemento {
-    float: left;
-    width: 33.333%;
+.imgITA img:hover{
+    filter: opacity(0.9);
 }
+
+
+
 
 
