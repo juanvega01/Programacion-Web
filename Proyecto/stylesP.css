@@ -12,16 +12,16 @@ color: blanchedalmond;
     justify-content: center;
     align-items: center; 
     
-    box-shadow: #FFFFFF 10px;
-    width: 300px;
-    height: 200px;
-    margin: 0 auto;
-    padding: 1px;
+    box-shadow: #FFFFFF 20px;
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 10px;
     
 }
 #Timg img{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 2px 2px 2px 1px #000000;
@@ -50,14 +50,14 @@ align-items: center;
     height: 200px;
     object-fit: cover;
     margin: auto 0;
-       
+      
 
 
    
 }
 #lSistemas img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: auto auto;
     
 }
@@ -107,6 +107,11 @@ align-items: center;
     margin-right: auto;
     object-fit: cover;
 }
+#ubicacion img{
+    width: 200px;
+    height: 200px;
+    margin: top 20px;;
+}
 
 #ubicacion:hover{
 transform: scale(0.9);
@@ -128,6 +133,21 @@ align-items: center;
     filter: opacity(0.9);
 }
 
+#Bhorario{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10px;
+
+}
+#Nhorario{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.datos{
+    background-color: aquamarine;
+    width: 400px;
+}
 
 
 
