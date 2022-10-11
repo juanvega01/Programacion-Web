@@ -12,8 +12,8 @@ div{
     box-shadow: 3px 6px green;
     
    border-radius: 4px ;
-   margin-top: 200px;
-   margin-bottom: 200px;
+   margin-top: 100px;
+   margin-bottom: 100px;
    padding-bottom: 100px;
 }
 h1{
@@ -25,7 +25,7 @@ h1{
 
 }
 input{
-    position: relative;
+    position:initial;
     display: flex;
     width: 300px;
     height: 5px;
@@ -37,3 +37,58 @@ input{
     margin-top: 20px;
     
 }
+#selecarreras{
+    width: 310px;
+    height:45px;
+    
+}
+input[name="registrar"]{
+    width: 90px;
+    height: 35px;
+    
+}
+
+@media (max-width:500px) {
+    div{
+        background-color: rgb(18, 209, 136);
+        width: 350px;
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 3px 6px green;
+    }
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        padding-top: 40px;
+       font-weight: bold;
+        
+    
+    }
+    input{
+        position:initial;
+        display: flex;
+        width: 210px;
+        height: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        
+    }
+    #selecarreras{
+        width: 210px;
+        height:35px;
+        
+    }
+    input[name="registrar"]{
+        width: 90px;
+        height: 35px;
+        background-color: gray;
+    }
+}
+
