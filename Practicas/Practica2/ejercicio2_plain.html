@@ -7,7 +7,7 @@
   #titulo{
     color: green;
   }
-  strong{
+  strong p{
     color: red;
   }
   .destacado{
@@ -20,21 +20,25 @@
   a{
     color: red;
   }
-  em a{
+   a em{
     color: blue;
   }
   .especial span{
     color: purple;
   }
-  thead,tr,th,td{
+  table,th,td,tr{
     border: 1px solid black;
     border-collapse: collapse;
+    color: red;
   }
 
   .especial{
     color: yellow;
   }
-  td strong{
+  .especial span{
+    color: yellow;
+  }
+   strong td{
     color: gold;
   }
   tbody td{
@@ -46,7 +50,7 @@
   #adicional a{
     color: brown;
   }
-#adicional  #especial{
+#adicional  > #especial{
 color: gold;
 }
 </style>
